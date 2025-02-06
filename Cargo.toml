@@ -12,7 +12,7 @@ repository = "https://github.com/dtolnay/thiserror"
 rust-version = "1.61"
 
 [features]
-default = ["std"]
+default = []
 
 # Std feature enables support for formatting std::path::{Path, PathBuf}
 # conveniently in an error message.
